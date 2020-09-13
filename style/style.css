@@ -1,0 +1,396 @@
+
+@media only screen and (max-width: 320px) {
+
+   /************Police************/
+
+@font-face {
+   font-family: 'robotobold';
+   src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-bold-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'robotoitalic';
+   src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-italic-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'robotomedium';
+   src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-medium-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'robotoregular';
+   src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'roboto_condensedlight';
+   src: url('../fonts/robotocondensed-light-webfont.woff2') format('woff2'),
+        url('../fonts/robotocondensed-light-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+@font-face {
+   font-family: 'roboto_condensedbold';
+   src: url('../fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+        url('../fonts/robotocondensed-bold-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+
+
+@font-face {
+   font-family: 'roboto_condensedregular';
+   src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+        url('../fonts/robotocondensed-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'shrikhandregular';
+   src: url('../fonts/shrikhand-regular-webfont.woff2') format('woff2'),
+        url('../fonts/shrikhand-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+   /***********Header***********/
+
+   img {
+      width: 50%;
+   }
+
+   .header {
+      text-align: center;
+      margin-left: -20px;
+      margin-right: -20px;
+   }
+   
+
+   /*************Localisation*************/
+
+   .localisation {
+      margin-right: -20px;
+      margin-left: -20px;
+      text-align: center;
+      background-color: #E4E3E3;
+      display: grid;
+      grid-template-columns: 30% 70%;
+      box-shadow: inset 0px 5px 5px 0px rgba(0,0,0,0.17);
+      height: 65px;
+      margin-bottom: -40px; 
+   }
+   
+   .localisation_text {
+      padding-right: 80px;
+      font-family: 'robotobold';
+      font-size: 16px;
+      margin-top: 0px;
+      padding-top: 15px;
+      color: #525252;
+  }
+   
+   .logo_local {
+      padding-top: 15px;
+      padding-left: 75px;
+      color: #525252;
+   }
+   
+   /*********Exploration*********/
+   
+   .explore {
+      background-color: #F0F0F0;
+      text-align: center;
+      margin-right: -15px;
+      margin-left: -15px;
+      margin-top: 23px;
+      height: 13em;
+      padding-top: 10px;
+      padding-bottom: 20px;
+   }
+
+   .explore_titre {
+      font-family: 'roboto_condensedbold';
+   }
+
+   .explore_text {
+      font-family: 'robotobold';
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      color: #7C7C7C;
+      font-size: 15px;
+      margin-bottom: 25px;
+   }
+
+   .explore_bouton {
+      padding: .75rem 1.25rem;
+      border-radius: 10rem;
+      color: #fff;
+      background-color: #C968DB;
+      border: none;
+      font-family: 'robotobold';
+      box-shadow: inset -4px -17px 28px -21px rgba(0,0,0,0.75), 0px 7px 15px -4px rgba(0,0,0,0.44);
+  }
+   
+
+/*****************How It Works***************/
+
+   .how_logo {
+      text-align: center;
+      font-family: 'robotoregular';
+      font-weight: bolder;
+      font-size: 1em;
+      color: #fff;
+      padding-right: 1px;
+      width: 20px;
+      height: 20px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      position: absolute;
+      border: 1px #0703fc21 solid;
+      margin-top: 30px;
+      margin-left: -8px;
+      background-color: #9356DC;
+   }
+
+   .howitwork {
+      margin-bottom: 40px;
+   }
+
+   .etapes {
+       display: flex;
+       margin-left: 10px;
+   }
+
+   .howitwork_bouton3 {
+      padding: 1rem 8.5rem;
+      border-radius: 1rem;
+      background-color: #F0F0F0;
+      border: none;
+      font-family: 'robotobold';
+      display: flex;
+      box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+      justify-content: space-between;
+      padding-right: 75px;
+      color: #444444;
+   }
+
+   .howitwork_bouton2 {
+      padding: 1rem 8.5rem;
+      border-radius: 1rem;
+      background-color: #F0F0F0;
+      border: none;
+      font-family: 'robotobold';
+      display: flex;
+      box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+      justify-content: space-between;
+      padding-right: 130px;
+      color: #444444;
+   }
+
+   .howitwork_bouton1 {
+      padding: 1rem 8.5rem;
+      border-radius: 1rem;
+      background-color: #F0F0F0;
+      border: none;
+      font-family: 'robotobold';
+      display: flex;
+      box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+      justify-content: space-between;
+      padding-right: 125px;
+      color: #444444;
+   }
+
+   #howitwork_logo {
+      margin-left: -95px;
+   }
+
+   #howitwork_logo2 {
+      margin-left: -100px;
+   }
+
+   #howitwork_logo3 {
+      margin-left: -100px;
+   }
+
+   .howitwork_text {
+      margin-right: -30px;
+      padding-left: 20px;
+      font-size: 0.78em;
+   }
+   
+   .howitwork_titre {
+      font-family: 'roboto_condensedbold';
+      margin-top: 30px;
+   }
+
+   /*********Restaurants*********/
+
+   .restaurants_image {
+      width: 17.5em;
+      margin-left: -40px;
+      border-radius: 17px 17px 0px 0px;
+   }
+
+   .restaurants_image2 {
+      width: 17.5em;
+      margin-left: -40px;
+      border-radius: 17px 17px 0px 0px;
+   }
+
+   .restaurants_contenu {
+      background-color: #fff;
+      width: 280px;
+      border-radius: 1rem;
+      margin-left: 5px;
+      box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+      padding-bottom: 5px;
+      height: 210px;
+   }
+
+   .restaurants {
+      width: 320px;
+      font-family: 'robotoregular';
+      line-height: 0;
+      background-color: #F0F0F0;
+      padding-top: 40px;
+      padding-bottom: 60px;
+      padding-left: 5px;
+      margin-left: -5px;
+   }
+
+   .restaurants_titre {
+      font-family: 'roboto_condensedbold';
+      padding-left: 8px;
+      margin-bottom: 30px;
+   }
+
+   .restaurants_text {
+      margin-left: -33px;
+   }
+
+   .restaurants_titre2 {
+      margin-top: 25px;
+      font-family: 'robotoregular';
+   }
+
+   .restaurants_text2 {
+      margin-bottom: 25px;
+      font-family: 'robotoregular';
+   }
+
+   .restaurants_new {
+      border: 1px solid #99E2D0;
+      width: 53px;
+      font-size: 15px;
+      background-color: #99E2D0;
+      font-family: 'robotobold';
+      color: #378B77;
+      position: relative;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      margin-top: -200px;
+      margin-left: 180px;
+      padding-left: 25px;
+   }
+
+   #restaurants_heart {
+      position: relative;
+      margin-left: 230px;
+      margin-top: 110px;
+      font-size: 22px;
+   }
+
+   #restaurants_heart2 {
+      position: relative;
+      margin-left: 230px;
+      margin-top: 110px;
+      font-size: 22px;
+   }
+
+   #restaurants_heart3 {
+      position: relative;
+      margin-left: 230px;
+      margin-top: 180px;
+      font-size: 22px;
+   }
+
+   #restaurants_heart4 {
+      position: relative;
+      margin-left: 230px;
+      margin-top: 210px;
+      font-size: 22px;
+   }
+
+/*****************Footer***************/
+  
+   .footer {
+      background-color: #343434;
+      width: 320px;
+      padding-top: 20px;
+      padding-left: 15px;
+      height: 170px;
+      margin-left: -10px;
+      line-height: 0;
+      color: #fff;
+      font-family: 'robotoregular';
+   }
+
+   .footer_logo {
+      font-family: 'shrikhandregular';
+      margin-top: 10px;
+      color: #F0F0F0;
+   }
+
+   .footer_restaurant {
+      margin-left: 20px;
+   }
+
+   .footer_partner {
+      margin-left: 13px;
+   }
+
+   .footer_contact {
+      margin-top: 28px;
+   }
+
+   .footer_legal {
+      margin-top: 20px;
+   }
+
+   /*test*/
+
+ 
+
+}
+   
+
+
