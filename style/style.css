@@ -265,6 +265,12 @@
       border-radius: 17px 17px 0px 0px;
    }
 
+   .restaurants_image1 {
+      width: 18.7em;
+      margin-left: -40px;
+      border-radius: 17px 17px 0px 0px;
+   }
+
    .restaurants_image2 {
       width: 17.5em;
       margin-left: -40px;
@@ -404,6 +410,7 @@
       padding-bottom: 20px;
       position: relative;
       border-radius: 35px 35px 0px 0px;
+      line-height: 0.5;
    }
 
    .bastille_header {
@@ -456,7 +463,7 @@
       text-align: left;
       display: flex;
       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
-      padding: 10px 0px 10px 10px;
+      padding: 0px 0px 0px 10px;
       margin-right: 20px;
       margin-left: 20px;
       margin-top: 15px;
@@ -467,7 +474,7 @@
       padding-left: 20px;
       font-family: 'robotoregular';
       text-align: left;
-      margin-bottom: -5px;
+      margin-bottom: 10px;
    }
 
    .bastille_order {
@@ -498,6 +505,72 @@
 
    .bastille_plats {
       margin-bottom: 40px;
+   }
+
+
+/********Cellules menus********/
+
+   .sous_titres {
+      font-weight: bolder;
+   }
+
+   .sous_text {
+      font-size: 12px;
+   }
+
+   a {
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+   }
+
+
+/**********Emplacement des Prix*********/
+
+
+   .prix {
+      padding-left: 140px;
+      font-weight: bolder;
+   }
+
+   .prix1 {
+      padding-left: 20px;
+      font-weight: bolder;
+   }
+
+   .prix2 {
+      padding-left: 180px;
+      font-weight: bolder;
+   }
+
+   .prix3 {
+      padding-left: 115px;
+      font-weight: bolder;
+   }
+
+   .prix4 {
+      padding-left: 110px;
+      font-weight: bolder;
+   }
+
+   .prix5 {
+      padding-left: 100px;
+      font-weight: bolder;
+   }
+
+   .prix6 {
+      padding-left: 125px;
+      font-weight: bolder;
+   }
+
+   .prix7 {
+      padding-left: 185px;
+      font-weight: bolder;
+   }
+
+   .prix8 {
+      padding-left: 70px;
+      font-weight: bolder;
    }
 
 
