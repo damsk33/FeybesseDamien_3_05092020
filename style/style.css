@@ -89,7 +89,7 @@
    /***********Header***********/
 
    img {
-      width: 50%;
+      width: 44%;
    }
 
    .header {
@@ -421,6 +421,56 @@
       margin-left: 50px;
       width: 40%;
    }
+
+   .bastille_titre {
+      font-family: 'shrikhandregular';
+      margin-top: 10px;
+      font-size: 22px;
+   }
+
+   #bastille_heart {
+      margin-left: 160px;
+      margin-top: 5px;
+      font-size: 22px;
+   }
+
+   .bastille_head {
+      display: flex;
+      margin-left: 20px;
+      margin-top: 20px;
+   }
+
+   .bastille_footer {
+      background-color: #343434;
+      padding-top: 20px;
+      padding-left: 25px;
+      height: 170px;
+      line-height: 0;
+      color: #fff;
+      font-family: 'robotoregular';
+   }
+
+   .entrees1 {
+      border-radius: 1rem;
+      background-color: #fff;
+      border: none;
+      text-align: left;
+      display: flex;
+      box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+      padding: 10px 0px 10px 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+      font-family: 'robotoregular';
+   }
+
+   .entrees_titre {
+      padding-left: 20px;
+      font-family: 'robotoregular';
+      text-align: left;
+   }
+
+
 
 
 
