@@ -400,7 +400,6 @@
       background-color: #F0F0F0;
       text-align: center;
       margin-top: -43px;
-      height: 40em;
       padding-top: 10px;
       padding-bottom: 20px;
       position: relative;
@@ -460,7 +459,7 @@
       padding: 10px 0px 10px 10px;
       margin-right: 20px;
       margin-left: 20px;
-      margin-top: 20px;
+      margin-top: 15px;
       font-family: 'robotoregular';
    }
 
@@ -468,6 +467,37 @@
       padding-left: 20px;
       font-family: 'robotoregular';
       text-align: left;
+      margin-bottom: -5px;
+   }
+
+   .bastille_order {
+      margin: 50px 0px 50px 0px;
+   }
+
+   .bastille_bouton {
+      padding: .75rem 3.5rem;
+      border-radius: 10rem;
+      color: #fff;
+      background-color: #C968DB;
+      border: none;
+      font-family: 'robotobold';
+      box-shadow: inset -4px -17px 28px -21px rgba(0,0,0,0.75), 0px 7px 15px -4px rgba(0,0,0,0.44);
+   }
+
+   .bastille_trait {
+      border: 1.2px solid #99E2D0;
+      margin-right: 260px;
+      margin-left: 20px;
+   }
+
+   .bastille_trait1 {
+      border: 1px solid #99E2D0;
+      margin-right: 260px;
+      margin-left: 20px;
+   }
+
+   .bastille_plats {
+      margin-bottom: 40px;
    }
 
 
