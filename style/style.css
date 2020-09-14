@@ -1,6 +1,6 @@
+/*@import "style1.css";*/
 
-@media only screen and (max-width: 320px) {
-
+@media only screen and (max-width: 1600px) {
    /************Police************/
 
 @font-face {
@@ -78,6 +78,14 @@
 
 }
 
+   .ohmyfood {
+      min-width: 320px;
+      max-width: 320px;
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #fff;
+   }
+
    /***********Header***********/
 
    img {
@@ -94,8 +102,6 @@
    /*************Localisation*************/
 
    .localisation {
-      margin-right: -20px;
-      margin-left: -20px;
       text-align: center;
       background-color: #E4E3E3;
       display: grid;
@@ -125,8 +131,6 @@
    .explore {
       background-color: #F0F0F0;
       text-align: center;
-      margin-right: -15px;
-      margin-left: -15px;
       margin-top: 23px;
       height: 13em;
       padding-top: 10px;
@@ -175,17 +179,18 @@
       border-radius: 50%;
       position: absolute;
       border: 1px #0703fc21 solid;
-      margin-top: 30px;
+      margin-top: 15px;
       margin-left: -8px;
       background-color: #9356DC;
    }
 
    .howitwork {
       margin-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
    }
 
    .etapes {
-       display: flex;
        margin-left: 10px;
    }
 
@@ -249,6 +254,7 @@
    .howitwork_titre {
       font-family: 'roboto_condensedbold';
       margin-top: 30px;
+      margin-left: 10px;
    }
 
    /*********Restaurants*********/
@@ -269,7 +275,7 @@
       background-color: #fff;
       width: 280px;
       border-radius: 1rem;
-      margin-left: 5px;
+      margin-left: 18px;
       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
       padding-bottom: 5px;
       height: 210px;
@@ -283,12 +289,11 @@
       padding-top: 40px;
       padding-bottom: 60px;
       padding-left: 5px;
-      margin-left: -5px;
    }
 
    .restaurants_titre {
       font-family: 'roboto_condensedbold';
-      padding-left: 8px;
+      padding-left: 18px;
       margin-bottom: 30px;
    }
 
@@ -354,14 +359,13 @@
   
    .footer {
       background-color: #343434;
-      width: 320px;
       padding-top: 20px;
-      padding-left: 15px;
+      padding-left: 25px;
       height: 170px;
-      margin-left: -10px;
       line-height: 0;
       color: #fff;
       font-family: 'robotoregular';
+      margin-right: -5px;
    }
 
    .footer_logo {
@@ -386,11 +390,7 @@
       margin-top: 20px;
    }
 
-   /*test25*/
 
-    /*testre25*/
-
- 
 
 }
    

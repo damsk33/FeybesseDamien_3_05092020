@@ -1,0 +1,90 @@
+@media only screen and (min-width: 600px) {
+
+    /************Police************/
+ 
+ @font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ @font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ @font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ @font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ }
+ 
+ @font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('../fonts/robotocondensed-light-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ 
+ @font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('../fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ 
+ 
+ 
+ @font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ @font-face {
+    font-family: 'shrikhandregular';
+    src: url('../fonts/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ .ohmyfood {
+    max-width: 600px;
+    
+ }
+
+ .howitwork_text {
+    margin-right: 90px;
+    padding-left: 20px;
+    font-size: 0.78em
+ }
+}
