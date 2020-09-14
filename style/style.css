@@ -390,6 +390,39 @@
       margin-top: 20px;
    }
 
+   /********BASTILLE********/
+
+   .bastille_image {
+      width: 100%;
+   }
+
+   .bastille_content {
+      background-color: #F0F0F0;
+      text-align: center;
+      margin-top: -43px;
+      height: 40em;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      position: relative;
+      border-radius: 35px 35px 0px 0px;
+   }
+
+   .bastille_header {
+      display: flex;
+      padding-bottom: 10px;
+   }
+
+   #bastille_arrow {
+      padding-top: 5px;
+      margin-left: 40px;
+   }
+
+   .bastille_logo {
+      margin-left: 50px;
+      width: 40%;
+   }
+
+
 
 
 }
