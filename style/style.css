@@ -158,7 +158,12 @@
       border: none;
       font-family: 'robotobold';
       box-shadow: inset -4px -17px 28px -21px rgba(0,0,0,0.75), 0px 7px 15px -4px rgba(0,0,0,0.44);
-  }
+      transform: scale(1);
+      transition: transform 400ms;
+      }
+      .explore_bouton:hover {
+         transform: scale(1.2);
+      }
    
 
 /*****************How It Works***************/
@@ -494,6 +499,7 @@
       border: 1.2px solid #99E2D0;
       margin-right: 260px;
       margin-left: 20px;
+      background-color: #99E2D0;
    }
 
    .bastille_trait1 {
