@@ -1,6 +1,5 @@
 /*@import "style1.css";*/
 
-@media only screen and (max-width: 1600px) {
    /************Police************/
 
 @font-face {
@@ -260,7 +259,7 @@
    /*********Restaurants*********/
 
    .restaurants_image {
-      width: 17.5em;
+      width: 18.7em;
       margin-left: -40px;
       border-radius: 17px 17px 0px 0px;
    }
@@ -632,9 +631,125 @@
       font-weight: bolder;
    }
 
+/*******************THE FULL PALETTE******************/
+
+   #palette_heart {
+      margin-left: 65px;
+      margin-top: 5px;
+      font-size: 22px;
+   }
+
+   .prix_palette1 {
+      padding-left: 75px;
+      font-weight: bolder;
+   }
+
+   .prix_palette2 {
+      padding-left: 87px;
+      font-weight: bolder;
+   }
+
+   .prix_palette3 {
+      padding-left: 220px;
+      font-weight: bolder;
+   }
+
+   .prix_palette4 {
+      padding-left: 175px;
+      font-weight: bolder;
+   }
+
+   .prix_palette5 {
+      padding-left: 30px;
+      font-weight: bolder;
+   }
+
+   .prix_palette6 {
+      padding-left: 128px;
+      font-weight: bolder;
+   }
+
+   .prix_palette7 {
+      padding-left: 185px;
+      font-weight: bolder;
+   }
+
+   .prix_palette8 {
+      padding-left: 115px;
+      font-weight: bolder;
+   }
+
+   .prix_palette9 {
+      padding-left: 82px;
+      font-weight: bolder;
+   }
+
+   .sous_text_palette {
+      line-height: 1;
+      font-family: 'robotoregular';
+      font-size: 12px;
+   }
 
 
-}
+/******************LE GOURMAND*************/
+
+   #gourmand_heart {
+      margin-left: 90px;
+      margin-top: 5px;
+      font-size: 22px;
+   }
+
+   .prix_gourmand1 {
+      padding-left: 125px;
+      font-weight: bolder;
+   }
+
+   .prix_gourmand2 {
+      padding-left: 97px;
+      font-weight: bolder;
+   }
    
+   .prix_gourmand3 {
+      padding-left: 170px;
+      font-weight: bolder;
+   }
+
+   .prix_gourmand4 {
+      padding-left: 140px;
+      font-weight: bolder;
+   }
+
+   .prix_gourmand5 {
+      padding-left: 98px;
+      font-weight: bolder;
+   }
+
+   .prix_gourmand6 {
+      padding-left: 105px;
+      font-weight: bolder;
+   }
+
+   .prix_gourmand7 {
+      padding-left: 160px;
+      font-weight: bolder;
+   }
+
+   .prix_gourmand8 {
+      padding-left: 185px;
+      font-weight: bolder;
+   }
+
+   .prix_gourmand9 {
+      padding-left: 155px;
+      font-weight: bolder;
+   }
+
+   .sous_titres_gourmand {
+      line-height: 1.2;
+      margin-bottom: -5px;
+      font-weight: bolder;
+   }
+
+ 
 
 
