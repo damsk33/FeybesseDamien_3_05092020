@@ -272,7 +272,7 @@
    }
 
    .restaurants_image2 {
-      width: 17.5em;
+      width: 18.7em;
       margin-left: -40px;
       border-radius: 17px 17px 0px 0px;
    }
@@ -574,7 +574,63 @@
    }
 
 
+/***************THE ENCHANTED PLATE*********************/
 
+   #enchanted_heart {
+      margin-left: 20px;
+      margin-top: 5px;
+      font-size: 22px;
+   }
+
+   .prix_enchanted1 {
+      padding-left: 114px;
+      font-weight: bolder;
+   }
+
+   .prix_enchanted2 {
+      padding-left: 85px;
+      font-weight: bolder;
+   }
+
+   .prix_enchanted3 {
+      padding-left: 55px;
+      font-weight: bolder;
+  
+   }
+
+   .prix_enchanted4 {
+      padding-left: 110px;
+      font-weight: bolder;
+  
+   }
+
+   .prix_enchanted5 {
+      padding-left: 75px;
+      font-weight: bolder;
+  
+   }
+
+   .prix_enchanted6 {
+      padding-left: 75px;
+      font-weight: bolder;
+  
+   }
+
+   .prix_enchanted7 {
+      padding-left: 70px;
+      font-weight: bolder;
+  
+   }
+
+   .prix_enchanted8 {
+      padding-left: 133px;
+      font-weight: bolder;
+   }
+
+   .prix_enchanted9 {
+      padding-left: 160px;
+      font-weight: bolder;
+   }
 
 
 
