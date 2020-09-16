@@ -162,6 +162,10 @@
       .explore_bouton:hover {
          background-color: #edaafa; }
 
+      .restaurants {
+         position: absolute;
+      }
+
    
 
 /*****************How It Works****************/
