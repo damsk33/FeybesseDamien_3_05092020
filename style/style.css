@@ -158,12 +158,10 @@
       border: none;
       font-family: 'robotobold';
       box-shadow: inset -4px -17px 28px -21px rgba(0,0,0,0.75), 0px 7px 15px -4px rgba(0,0,0,0.44);
-      transform: scale(1);
-      transition: transform 400ms;
       }
       .explore_bouton:hover {
-         transform: scale(1.2);
-      }
+         background-color: #edaafa; }
+
    
 
 /*****************How It Works***************/
@@ -268,17 +266,26 @@
       margin-left: -40px;
       border-radius: 17px 17px 0px 0px;
    }
+   .restaurants_image:hover {
+      opacity: 0.8;
+   }
 
    .restaurants_image1 {
       width: 18.7em;
       margin-left: -40px;
       border-radius: 17px 17px 0px 0px;
    }
+   .restaurants_image1:hover {
+      opacity: 0.8;
+   }
 
    .restaurants_image2 {
       width: 18.7em;
       margin-left: -40px;
       border-radius: 17px 17px 0px 0px;
+   }
+   .restaurants_image2:hover {
+      opacity: 0.8;
    }
 
    .restaurants_contenu {
@@ -321,54 +328,52 @@
       font-family: 'robotoregular';
    }
 
-   .restaurants_new {
+   .restaurants_new1 {
       border: 1px solid #99E2D0;
-      width: 53px;
-      font-size: 15px;
-      background-color: #99E2D0;
+      background: #99E2D0;
       font-family: 'robotobold';
       color: #378B77;
-      position: relative;
-      height: 25px;
-      display: flex;
-      align-items: center;
-      margin-top: -200px;
-      margin-left: 180px;
-      padding-left: 25px;
+      position: absolute;
+      line-height: 100%;
+      padding: 5px 15px;
+      left: 59%;
+      transform: translate(50%, 50%);
    }
 
    #restaurants_heart {
-      position: relative;
-      margin-left: 230px;
-      margin-top: 110px;
+      position: absolute;
       font-size: 22px;
-   }
+      top: 25%;
+      right: 15%;;
+      }
 
    #restaurants_heart2 {
-      position: relative;
-      margin-left: 230px;
-      margin-top: 110px;
+      position: absolute;
       font-size: 22px;
+      top: 47%;
+      right: 15%;
    }
 
    #restaurants_heart3 {
-      position: relative;
-      margin-left: 230px;
-      margin-top: 180px;
+      position: absolute;
       font-size: 22px;
+      top: 69%;
+      right: 15%;
    }
 
    #restaurants_heart4 {
-      position: relative;
-      margin-left: 230px;
-      margin-top: 210px;
+      position: absolute;
       font-size: 22px;
+      top: 90.8%;
+      right: 15%;
    }
 
 /*****************Footer***************/
   
    .footer {
       background-color: #343434;
+      position: relative;
+      margin-top: 68rem;
       padding-top: 20px;
       padding-left: 25px;
       height: 170px;
