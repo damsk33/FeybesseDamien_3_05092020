@@ -483,6 +483,34 @@
       font-family: 'robotoregular';
    }
 
+   .entrees2 {
+      border-radius: 1rem;
+      background-color: #fff;
+      border: none;
+      text-align: left;
+      display: flex;
+      box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+      padding: 0px 0px 0px 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 15px;
+      font-family: 'robotoregular';
+   }
+
+   .entrees3 {
+      border-radius: 1rem;
+      background-color: #fff;
+      border: none;
+      text-align: left;
+      display: flex;
+      box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+      padding: 0px 0px 0px 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 15px;
+      font-family: 'robotoregular';
+   }
+
    .entrees_titre {
       padding-left: 20px;
       font-family: 'robotoregular';
@@ -772,16 +800,26 @@
 
    .entrees1 {
       transition: .5s;
-      animation: animenu 5s;
+      animation: animenu 4s;
     }
+
+    .entrees2 {
+      transition: .5s;
+      animation: animenu 6s;
+    }
+
+    .entrees3 {
+      transition: .5s;
+      animation: animenu 8s;
+    }
+
+
     
     @keyframes animenu {
       from {
-        transform: translateY(-40px);
         opacity: 0;
       }
       to {
-        transform: translateY(0);
         opacity: 1;
       }
     }
