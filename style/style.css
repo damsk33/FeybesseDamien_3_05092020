@@ -503,6 +503,8 @@
       font-family: 'robotobold';
       box-shadow: inset -4px -17px 28px -21px rgba(0,0,0,0.75), 0px 7px 15px -4px rgba(0,0,0,0.44);
    }
+   .bastille_bouton:hover {
+      background-color: #edaafa; }
 
    .bastille_trait {
       border: 1.2px solid #99E2D0;
@@ -765,6 +767,24 @@
       font-weight: bolder;
    }
 
+
+   /***************Animations***************/
+
+   .entrees1 {
+      transition: .5s;
+      animation: animenu 5s;
+    }
+    
+    @keyframes animenu {
+      from {
+        transform: translateY(-40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
  
 
 
