@@ -1,4 +1,4 @@
-/*@import "style1.css";*/
+@import "animations.css";
 
    /************Police************/
 
@@ -547,10 +547,6 @@
       margin-left: 20px;
    }
 
-   .bastille_plats {
-      margin-bottom: 40px;
-   }
-
 
 /********Cellules menus********/
 
@@ -796,33 +792,10 @@
    }
 
 
-   /***************Animations***************/
-
-   .entrees1 {
-      transition: .5s;
-      animation: animenu 4s;
-    }
-
-    .entrees2 {
-      transition: .5s;
-      animation: animenu 6s;
-    }
-
-    .entrees3 {
-      transition: .5s;
-      animation: animenu 8s;
-    }
+   
 
 
     
-    @keyframes animenu {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
  
 
 
