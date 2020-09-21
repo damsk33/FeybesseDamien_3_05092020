@@ -432,3 +432,215 @@ font-size: 15px;
    font-family: 'robotoregular';
    margin-bottom: 50px;
  }
+
+ /**********COEUR***********/
+
+ #restaurants_heartplein {
+  display: none;
+  position: absolute;
+  animation: coeur 2s infinite;
+  font-size: 22px;
+  top: 25%;
+  right: 15%;
+  opacity: 0;
+  transition: 1s;
+  color: #CB2757;
+ }
+
+ #restaurants_heartplein2 {
+  display: none;
+  position: absolute;
+  animation: coeur 2s infinite;
+  font-size: 22px;
+  top: 47%;
+  right: 15%;
+  opacity: 0;
+  transition: 1s;
+  color: #CB2757;
+ }
+
+ #restaurants_heartplein3 {
+  display: none;
+  position: absolute;
+  animation: coeur 2s infinite;
+  font-size: 22px;
+  top: 69%;
+  right: 15%;
+  opacity: 0;
+  transition: 1s;
+  color: #CB2757;
+ }
+
+ #restaurants_heartplein4 {
+  display: none;
+  position: absolute;
+  animation: coeur 2s infinite;
+  font-size: 22px;
+  top: 90.8%;
+  right: 15%;
+  opacity: 0;
+  transition: 1s;
+  color: #CB2757;
+ }
+
+ .animcoeur:active #restaurants_heartplein {
+   opacity: 1;
+   display: inline;
+ }
+
+ .animcoeur:active #restaurants_heartplein2 {
+  opacity: 1;
+  display: inline;
+}
+
+.animcoeur:active #restaurants_heartplein3 {
+  opacity: 1;
+  display: inline;
+}
+
+.animcoeur:active #restaurants_heartplein4 {
+  opacity: 1;
+  display: inline;
+}
+
+ #restaurants_heart {
+  position: absolute;
+  font-size: 22px;
+  top: 25%;
+  right: 15%;
+  }
+
+#restaurants_heart2 {
+  position: absolute;
+  font-size: 22px;
+  top: 47%;
+  right: 15%;
+}
+
+#restaurants_heart3 {
+  position: absolute;
+  font-size: 22px;
+  top: 69%;
+  right: 15%;
+}
+
+#restaurants_heart4 {
+  position: absolute;
+  font-size: 22px;
+  top: 90.8%;
+  right: 15%;
+}
+
+#palette_heart {
+  margin-left: 65px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+#palette_heartplein {
+  margin-left: -22px;
+  margin-top: 5px;
+  font-size: 23px;
+  opacity: 0;
+  transition: 1s;
+  color: #CB2757;
+  display: none;
+  position: absolute;
+  animation: coeur 2s infinite;
+}
+
+.animcoeur:active #palette_heartplein {
+  opacity: 1;
+  display: inline;
+}
+
+
+#enchanted_heart {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+#enchanted_heartplein {
+  margin-left: -22px;
+  margin-top: 5px;
+  font-size: 23px;
+  opacity: 0;
+  transition: 1s;
+  color: #CB2757;
+  display: none;
+  position: absolute;
+  animation: coeur 2s infinite;
+}
+
+.animcoeur:active #enchanted_heartplein {
+  opacity: 1;
+  display: inline;
+}
+
+
+#bastille_heart {
+  margin-left: 160px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+#bastille_heartplein {
+  display: none;
+  position: absolute;
+  animation: coeur 2s infinite;
+  font-size: 24px;
+  margin-left: -23px;
+  margin-top: 4px;
+  opacity: 0;
+  transition: 1s;
+  color: #CB2757;
+}
+
+.animcoeur:active #bastille_heartplein {
+  opacity: 1;
+  display: inline;
+}
+
+
+#gourmand_heart {
+  margin-left: 90px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+#gourmand_heartplein {
+  margin-left: -22px;
+  display: none;
+  position: absolute;
+  animation: coeur 2s infinite;
+  margin-top: 5px;
+  font-size: 23px;
+  opacity: 0;
+  transition: 1s;
+  color: #CB2757;
+  
+}
+
+
+.animcoeur:hover #gourmand_heartplein {
+  opacity: 1;
+  display: inline;
+}
+
+@keyframes coeur {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/***.animcoeur:active #gourmand_heartplein {
+  opacity: 1;
+}*****/
+
+
+
+
