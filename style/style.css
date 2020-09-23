@@ -252,7 +252,7 @@
       margin-left: -100px;
    }
 
-   .howitwork_text {
+   .howitwork_text, .howitwork_text2 {
       margin-right: -30px;
       padding-left: 20px;
       font-size: 0.78em;
@@ -928,7 +928,7 @@ img {
    font-size: 26px;
 }
 
-.howitwork_text {
+.howitwork_text, .howitwork_text2 {
    margin-right: 30px;
    font-size: 0.9em;
 }
@@ -2075,7 +2075,7 @@ font-size: 15px;
 }
 
 
-.animcoeur:hover #gourmand_heartplein {
+.animcoeur:active #gourmand_heartplein {
   opacity: 1;
   display: inline;
 }
@@ -2125,7 +2125,213 @@ font-size: 15px;
 
 }
 
-    
+@media screen and (min-width: 1050px) {
+   .ohmyfood {
+      width: 1220px;
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #fff;
+  }
+
+  .howitwork {
+   margin-bottom: 40px;
+   padding-left: 202px;
+   padding-right: 202px;
+}
+
+.howitwork_titre {
+   font-family: 'roboto_condensedbold';
+   margin-top: 30px;
+   margin-left: 10px;
+   font-size: 30px;
+   text-align: center;
+}
+
+.localisation_text {
+   padding-right: 340px;
+   font-size: 25px;
+}
+
+.logo_local {
+   padding-top: 22px;
+   padding-left: 505px;
+   color: #525252;
+}
+
+.restaurants {
+   width: 1220px;
+}
+
+.desktop {
+   display: flex;
+}
+
+.media_restaurants, .media_restaurants2 {
+   gap: 0;
+}
+
+.localisation {
+   margin-bottom: -30px;
+}
+
+.explore_titre {
+   font-family: 'roboto_condensedbold';
+   font-size: 35px;
+}
+
+.explore_text {
+   font-family: 'robotobold';
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #7C7C7C;
+   font-size: 20px;
+   margin-bottom: 25px;
+}
+
+.explore_bouton {
+   padding: 1rem 2rem;
+   border-radius: 10rem;
+   color: #fff;
+   background-color: #C968DB;
+   border: none;
+   font-family: 'robotobold';
+   box-shadow: inset -4px -17px 28px -21px rgba(0,0,0,0.75), 0px 7px 15px -4px rgba(0,0,0,0.44);
+   font-size: 18px;
+}
+
+.explore {
+   padding-bottom: 40px;
+}
+
+.howitwork {
+   margin-bottom: 40px;
+   padding-left: 232px;
+   padding-right: 232px;
+}
+
+.howitwork_text {
+   margin-right: 30px;
+   font-size: 1.4em;
+}
+
+.howitwork_text2 {
+   margin-right: -10px;
+    font-size: 1.4em;
+}
+
+.etapes {
+   margin-bottom: 40px
+}
+
+.restaurants {
+   margin-top: 30px;
+}
+
+.restaurants_titre {
+   font-size: 35px;
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.restaurants_new1 {
+   right: 79%;
+}
+
+.restaurants_new2 {
+   right: 55%;
+}
+
+#restaurants_heart {
+   top: 66%;
+   right: 77%;
+}
+
+#restaurants_heartplein {
+   top: 66%;
+   right: 77%;
+}
+
+#restaurants_heart2 {
+   top: 66%;
+   right: 53%;
+}
+
+#restaurants_heartplein2 {
+   top: 66%;
+   right: 53%;
+}
+
+#restaurants_heart3 {
+   top: 66.5%;
+   right: 28.5%;
+}
+
+#restaurants_heartplein3 {
+   top: 66.5%;
+   right: 28.5%;
+}
+
+#restaurants_heart4 {
+   top: 66.5%;
+   right: 4%;
+}
+
+#restaurants_heartplein4 {
+   top: 66.5%;
+   right: 4%;
+}
+
+.footer_index {
+   margin-top: 32em;
+}
+
+.footer_logo {
+   font-size: 35px;
+}
+
+.footer_media {
+   margin-left: 420px;
+}
+
+.bastille_logo {
+   margin-left: 260px;
+}
+
+.bastille_titre {
+   font-size: 42px;
+}
+
+.bastille_head {
+   margin-left: 400px;
+}
+
+.article, .article2, .article3 {
+   margin-right: 400px;
+   margin-left: 490px;
+}
+
+.entreesx2 {
+   padding-right: 190px;
+}
+
+.entrees_titre {
+   padding-left: 420px;
+}
+
+.bastille_trait, .bastille_trait1 {
+   margin-left: 340px;
+}
+
+.bastille_order {
+   padding-left: 90px;
+}
+
+.bastille_bouton {
+   font-size: 25px;
+}
+
+}
+
  
 
 
