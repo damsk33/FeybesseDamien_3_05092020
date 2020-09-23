@@ -1012,8 +1012,7 @@ img {
 }
 
 .restaurants_new1 {
-   border: 1px solid;
-   background: #99E2D0;
+   border: 1px solid #99E2D0;
    font-family: 'robotobold';
    color: #378B77;
    position: absolute;
@@ -1024,8 +1023,7 @@ img {
 }
 
 .restaurants_new2 {
-   border: 1px solid;
-   background: #99E2D0;
+   border: 1px solid #99E2D0;
    font-family: 'robotobold';
    color: #378B77;
    position: absolute;
@@ -1211,10 +1209,9 @@ img {
    background-color: #edaafa; }
 
 .bastille_trait {
-   border: 1.2px solid;
+   border: 1.2px solid #99E2D0;
    margin-right: 630px;
    margin-left: 20px;
-   background-color: #99E2D0;
    margin-bottom: 20px;
 }
 
