@@ -1,0 +1,746 @@
+
+
+/****@media screen and (min-width: 600px) and (max-width: 1024px){
+       /************Police************/
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ @font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ @font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ @font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ }
+ 
+ @font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('../fonts/robotocondensed-light-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ 
+ @font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('../fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ 
+ 
+ 
+ @font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ 
+ @font-face {
+    font-family: 'shrikhandregular';
+    src: url('../fonts/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ 
+ }
+ @media screen and (min-width: 320px) and (max-width: 600px) {
+ 
+    .ohmyfood {
+       width: 320px;
+       padding: 20px;
+       margin: 20px auto;
+       background-color: #fff;
+    }
+ 
+    /***********Header***********/
+ 
+    img {
+       width: 44%;
+    }
+ 
+    .header {
+       text-align: center;
+       margin-left: -20px;
+       margin-right: -20px;
+    }
+    
+ 
+    /*************Localisation*************/
+ 
+    .localisation {
+       text-align: center;
+       background-color: #E4E3E3;
+       display: grid;
+       grid-template-columns: 30% 70%;
+       box-shadow: inset 0px 5px 5px 0px rgba(0,0,0,0.17);
+       height: 65px;
+       margin-bottom: -40px; 
+    }
+    
+    .localisation_text {
+       padding-right: 80px;
+       font-family: 'robotobold';
+       font-size: 16px;
+       margin-top: 0px;
+       padding-top: 15px;
+       color: #525252;
+   }
+    
+    .logo_local {
+       padding-top: 15px;
+       padding-left: 75px;
+       color: #525252;
+    }
+    
+    /*********Exploration*********/
+    
+    .explore {
+       background-color: #F0F0F0;
+       text-align: center;
+       margin-top: 23px;
+       height: 13em;
+       padding-top: 10px;
+       padding-bottom: 20px;
+    }
+ 
+    .explore_titre {
+       font-family: 'roboto_condensedbold';
+    }
+ 
+    .explore_text {
+       font-family: 'robotobold';
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-top: 10px;
+       color: #7C7C7C;
+       font-size: 15px;
+       margin-bottom: 25px;
+    }
+ 
+    .explore_bouton {
+       padding: .75rem 1.25rem;
+       border-radius: 10rem;
+       color: #fff;
+       background-color: #C968DB;
+       border: none;
+       font-family: 'robotobold';
+       box-shadow: inset -4px -17px 28px -21px rgba(0,0,0,0.75), 0px 7px 15px -4px rgba(0,0,0,0.44);
+       }
+       .explore_bouton:hover {
+          background-color: #edaafa; }
+ 
+       .restaurants {
+          position: absolute;
+       }
+ 
+    
+ 
+ /*****************How It Works****************/
+ 
+    .how_logo {
+       text-align: center;
+       font-family: 'robotoregular';
+       font-weight: bolder;
+       font-size: 1em;
+       color: #fff;
+       padding-right: 1px;
+       width: 20px;
+       height: 20px;
+       display: inline-flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50%;
+       position: absolute;
+       border: 1px #0703fc21 solid;
+       margin-top: 15px;
+       margin-left: -8px;
+       background-color: #9356DC;
+    }
+ 
+    .howitwork {
+       margin-bottom: 40px;
+       padding-left: 20px;
+       padding-right: 20px;
+    }
+ 
+    .etapes {
+        margin-left: 10px;
+    }
+ 
+    .howitwork_bouton3 {
+       padding: 1rem 8.5rem;
+       border-radius: 1rem;
+       background-color: #F0F0F0;
+       border: none;
+       font-family: 'robotobold';
+       display: flex;
+       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+       justify-content: space-between;
+       padding-right: 75px;
+       color: #444444;
+    }
+ 
+    .howitwork_bouton2 {
+       padding: 1rem 8.5rem;
+       border-radius: 1rem;
+       background-color: #F0F0F0;
+       border: none;
+       font-family: 'robotobold';
+       display: flex;
+       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+       justify-content: space-between;
+       padding-right: 130px;
+       color: #444444;
+    }
+ 
+    .howitwork_bouton1 {
+       padding: 1rem 8.5rem;
+       border-radius: 1rem;
+       background-color: #F0F0F0;
+       border: none;
+       font-family: 'robotobold';
+       display: flex;
+       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+       justify-content: space-between;
+       padding-right: 125px;
+       color: #444444;
+    }
+ 
+    #howitwork_logo {
+       margin-left: -95px;
+    }
+ 
+    #howitwork_logo2 {
+       margin-left: -100px;
+    }
+ 
+    #howitwork_logo3 {
+       margin-left: -100px;
+    }
+ 
+    .howitwork_text {
+       margin-right: -30px;
+       padding-left: 20px;
+       font-size: 0.78em;
+    }
+    
+    .howitwork_titre {
+       font-family: 'roboto_condensedbold';
+       margin-top: 30px;
+       margin-left: 10px;
+    }
+ 
+    /*********Restaurants*********/
+ 
+    .restaurants_image {
+       width: 18.7em;
+       margin-left: -40px;
+       border-radius: 17px 17px 0px 0px;
+    }
+    .restaurants_image:hover {
+       opacity: 0.8;
+    }
+ 
+    .restaurants_image1 {
+       width: 18.7em;
+       margin-left: -40px;
+       border-radius: 17px 17px 0px 0px;
+    }
+    .restaurants_image1:hover {
+       opacity: 0.8;
+    }
+ 
+    .restaurants_image2 {
+       width: 18.7em;
+       margin-left: -40px;
+       border-radius: 17px 17px 0px 0px;
+    }
+    .restaurants_image2:hover {
+       opacity: 0.8;
+    }
+ 
+    .restaurants_contenu {
+       background-color: #fff;
+       width: 280px;
+       border-radius: 1rem;
+       margin-left: 18px;
+       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+       padding-bottom: 5px;
+       height: 210px;
+    }
+ 
+    .restaurants {
+       width: 320px;
+       font-family: 'robotoregular';
+       line-height: 0;
+       background-color: #F0F0F0;
+       padding-top: 40px;
+       padding-bottom: 60px;
+       padding-left: 5px;
+    }
+ 
+    .restaurants_titre {
+       font-family: 'roboto_condensedbold';
+       padding-left: 18px;
+       margin-bottom: 30px;
+    }
+ 
+    .restaurants_text {
+       margin-left: -33px;
+    }
+ 
+    .restaurants_titre2 {
+       margin-top: 25px;
+       font-family: 'robotoregular';
+    }
+ 
+    .restaurants_text2 {
+       margin-bottom: 25px;
+       font-family: 'robotoregular';
+    }
+ 
+    .restaurants_new1 {
+       border: 1px solid #99E2D0;
+       background: #99E2D0;
+       font-family: 'robotobold';
+       color: #378B77;
+       position: absolute;
+       line-height: 100%;
+       padding: 5px 15px;
+       left: 59%;
+       transform: translate(50%, 50%);
+    }
+ 
+ 
+ 
+ /*****************Footer***************/
+   
+    .footer {
+       background-color: #343434;
+       position: relative;
+       margin-top: 68rem;
+       padding-top: 20px;
+       padding-left: 25px;
+       height: 170px;
+       line-height: 0;
+       color: #fff;
+       font-family: 'robotoregular';
+       margin-right: -5px;
+    }
+ 
+    .footer_logo {
+       font-family: 'shrikhandregular';
+       margin-top: 10px;
+       color: #F0F0F0;
+    }
+ 
+    .footer_restaurant {
+       margin-left: 20px;
+    }
+ 
+    .footer_partner {
+       margin-left: 13px;
+    }
+ 
+    .footer_contact {
+       margin-top: 28px;
+    }
+ 
+    .footer_legal {
+       margin-top: 20px;
+    }
+ 
+    /********BASTILLE********/
+ 
+    .bastille_image {
+       width: 100%;
+    }
+ 
+    .bastille_content {
+       background-color: #F0F0F0;
+       text-align: center;
+       margin-top: -43px;
+       padding-top: 10px;
+       padding-bottom: 20px;
+       position: relative;
+       border-radius: 35px 35px 0px 0px;
+       line-height: 0.5;
+    }
+ 
+    .bastille_header {
+       display: flex;
+       padding-bottom: 10px;
+    }
+ 
+    #bastille_arrow {
+       padding-top: 5px;
+       margin-left: 40px;
+    }
+ 
+    .bastille_logo {
+       margin-left: 50px;
+       width: 40%;
+    }
+ 
+    .bastille_titre {
+       font-family: 'shrikhandregular';
+       margin-top: 10px;
+       font-size: 22px;
+    }
+ 
+    .bastille_head {
+       display: flex;
+       margin-left: 20px;
+       margin-top: 20px;
+    }
+ 
+    .bastille_footer {
+       background-color: #343434;
+       padding-top: 20px;
+       padding-left: 25px;
+       height: 170px;
+       line-height: 0;
+       color: #fff;
+       font-family: 'robotoregular';
+    }
+ 
+    .entrees1 {
+       border-radius: 1rem;
+       background-color: #fff;
+       border: none;
+       text-align: left;
+       display: flex;
+       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+       padding: 0px 0px 0px 10px;
+       margin-right: 20px;
+       margin-left: 20px;
+       margin-top: 15px;
+       font-family: 'robotoregular';
+    }
+ 
+    .entrees2 {
+       border-radius: 1rem;
+       background-color: #fff;
+       border: none;
+       text-align: left;
+       display: flex;
+       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+       padding: 0px 0px 0px 10px;
+       margin-right: 20px;
+       margin-left: 20px;
+       margin-top: 15px;
+       font-family: 'robotoregular';
+    }
+ 
+    .entrees3 {
+       border-radius: 1rem;
+       background-color: #fff;
+       border: none;
+       text-align: left;
+       display: flex;
+       box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.44);
+       padding: 0px 0px 0px 10px;
+       margin-right: 20px;
+       margin-left: 20px;
+       margin-top: 15px;
+       font-family: 'robotoregular';
+    }
+ 
+    .entrees_titre {
+       padding-left: 20px;
+       font-family: 'robotoregular';
+       text-align: left;
+       margin-bottom: 10px;
+    }
+ 
+    .bastille_order {
+       margin: 50px 0px 50px 0px;
+    }
+ 
+    .bastille_bouton {
+       padding: .75rem 3.5rem;
+       border-radius: 10rem;
+       color: #fff;
+       background-color: #C968DB;
+       border: none;
+       font-family: 'robotobold';
+       box-shadow: inset -4px -17px 28px -21px rgba(0,0,0,0.75), 0px 7px 15px -4px rgba(0,0,0,0.44);
+    }
+    .bastille_bouton:hover {
+       background-color: #edaafa; }
+ 
+    .bastille_trait {
+       border: 1.2px solid #99E2D0;
+       margin-right: 260px;
+       margin-left: 20px;
+       background-color: #99E2D0;
+    }
+ 
+    .bastille_trait1 {
+       border: 1px solid #99E2D0;
+       margin-right: 260px;
+       margin-left: 20px;
+    }
+ 
+ 
+ /********Cellules menus********/
+ 
+    .sous_titres {
+       font-weight: bolder;
+    }
+ 
+    .sous_text {
+       font-size: 12px;
+    }
+ 
+    a {
+       text-decoration: none;
+       color: black;
+       font-size: 15px;
+    }
+ 
+ 
+ /**********Emplacement des Prix*********/
+ 
+ 
+    .prix {
+       padding-left: 140px;
+       font-weight: bolder;
+    }
+ 
+    .prix1 {
+       padding-left: 20px;
+       font-weight: bolder;
+    }
+ 
+    .prix2 {
+       padding-left: 180px;
+       font-weight: bolder;
+    }
+ 
+    .prix3 {
+       padding-left: 115px;
+       font-weight: bolder;
+    }
+ 
+    .prix4 {
+       padding-left: 110px;
+       font-weight: bolder;
+    }
+ 
+    .prix5 {
+       padding-left: 100px;
+       font-weight: bolder;
+    }
+ 
+    .prix6 {
+       padding-left: 125px;
+       font-weight: bolder;
+    }
+ 
+    .prix7 {
+       padding-left: 185px;
+       font-weight: bolder;
+    }
+ 
+    .prix8 {
+       padding-left: 70px;
+       font-weight: bolder;
+    }
+ 
+ 
+ /***************THE ENCHANTED PLATE*********************/
+ 
+    .prix_enchanted1 {
+       padding-left: 114px;
+       font-weight: bolder;
+    }
+ 
+    .prix_enchanted2 {
+       padding-left: 85px;
+       font-weight: bolder;
+    }
+ 
+    .prix_enchanted3 {
+       padding-left: 55px;
+       font-weight: bolder;
+   
+    }
+ 
+    .prix_enchanted4 {
+       padding-left: 110px;
+       font-weight: bolder;
+   
+    }
+ 
+    .prix_enchanted5 {
+       padding-left: 75px;
+       font-weight: bolder;
+   
+    }
+ 
+    .prix_enchanted6 {
+       padding-left: 75px;
+       font-weight: bolder;
+   
+    }
+ 
+    .prix_enchanted7 {
+       padding-left: 70px;
+       font-weight: bolder;
+   
+    }
+ 
+    .prix_enchanted8 {
+       padding-left: 133px;
+       font-weight: bolder;
+    }
+ 
+    .prix_enchanted9 {
+       padding-left: 160px;
+       font-weight: bolder;
+    }
+ 
+ /*******************THE FULL PALETTE******************/
+ 
+    .prix_palette1 {
+       padding-left: 75px;
+       font-weight: bolder;
+    }
+ 
+    .prix_palette2 {
+       padding-left: 87px;
+       font-weight: bolder;
+    }
+ 
+    .prix_palette3 {
+       padding-left: 220px;
+       font-weight: bolder;
+    }
+ 
+    .prix_palette4 {
+       padding-left: 175px;
+       font-weight: bolder;
+    }
+ 
+    .prix_palette5 {
+       padding-left: 30px;
+       font-weight: bolder;
+    }
+ 
+    .prix_palette6 {
+       padding-left: 128px;
+       font-weight: bolder;
+    }
+ 
+    .prix_palette7 {
+       padding-left: 185px;
+       font-weight: bolder;
+    }
+ 
+    .prix_palette8 {
+       padding-left: 115px;
+       font-weight: bolder;
+    }
+ 
+    .prix_palette9 {
+       padding-left: 82px;
+       font-weight: bolder;
+    }
+ 
+    .sous_text_palette {
+       line-height: 1;
+       font-family: 'robotoregular';
+       font-size: 12px;
+    }
+ 
+ 
+ /******************LE GOURMAND*************/
+    .prix_gourmand1 {
+       padding-left: 125px;
+       font-weight: bolder;
+    }
+ 
+    .prix_gourmand2 {
+       padding-left: 97px;
+       font-weight: bolder;
+    }
+    
+    .prix_gourmand3 {
+       padding-left: 170px;
+       font-weight: bolder;
+    }
+ 
+    .prix_gourmand4 {
+       padding-left: 140px;
+       font-weight: bolder;
+    }
+ 
+    .prix_gourmand5 {
+       padding-left: 98px;
+       font-weight: bolder;
+    }
+ 
+    .prix_gourmand6 {
+       padding-left: 105px;
+       font-weight: bolder;
+    }
+ 
+    .prix_gourmand7 {
+       padding-left: 160px;
+       font-weight: bolder;
+    }
+ 
+    .prix_gourmand8 {
+       padding-left: 185px;
+       font-weight: bolder;
+    }
+ 
+    .prix_gourmand9 {
+       padding-left: 155px;
+       font-weight: bolder;
+    }
+ 
+    .sous_titres_gourmand {
+       line-height: 1.2;
+       margin-bottom: -5px;
+       font-weight: bolder;
+    }
+ 
+ }
+
+
