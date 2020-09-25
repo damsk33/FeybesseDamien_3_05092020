@@ -97,6 +97,17 @@
       margin-left: -20px;
       margin-right: -20px;
    }
+
+   .logo {
+      font-family: 'shrikhandregular';
+      font-size: 30px;
+   }
+
+   .logo_menu {
+      font-family: 'shrikhandregular';
+      font-size: 30px;
+      margin-left: 30px;
+}
    
 
    /*************Localisation*************/
@@ -380,20 +391,22 @@
 
    .footer_restaurant {
       margin-left: 20px;
+      color: #fff;
    }
 
    .footer_partner {
       margin-left: 13px;
+      color: #fff;
    }
 
    .footer_contact {
       margin-top: 28px;
       color: white;
-      font-weight: bold;
    }
 
    .footer_legal {
       margin-top: 20px;
+      color: #fff;
    }
 
    /********BASTILLE********/
@@ -432,6 +445,7 @@
       font-family: 'shrikhandregular';
       margin-top: 10px;
       font-size: 22px;
+      font-weight: 100;
    }
 
    .bastille_head {
@@ -516,12 +530,6 @@
       background-color: #edaafa; }
 
    .bastille_trait {
-      border: 1.2px solid #99E2D0;
-      margin-right: 260px;
-      margin-left: 20px;
-   }
-
-   .bastille_trait1 {
       border: 1px solid #99E2D0;
       margin-right: 260px;
       margin-left: 20px;
@@ -773,6 +781,17 @@ img {
    text-align: center;
    margin-left: -20px;
    margin-right: -20px;
+}
+
+.logo {
+   font-family: 'shrikhandregular';
+   font-size: 35px;
+}
+
+.logo_menu {
+   font-family: 'shrikhandregular';
+   font-size: 30px;
+   margin-left: 30px;
 }
 
 
@@ -1069,20 +1088,22 @@ img {
 
 .footer_restaurant {
    margin-left: 20px;
+   color: #fff;
 }
 
 .footer_partner {
    margin-left: 13px;
+   color: #fff;
 }
 
 .footer_contact {
    margin-top: 28px;
    color: white;
-   font-weight: bold;
 }
 
 .footer_legal {
    margin-top: 20px;
+   color: #fff;
 }
 
 /********BASTILLE********/
@@ -1207,13 +1228,6 @@ img {
    background-color: #edaafa; }
 
 .bastille_trait {
-   border: 1.2px solid #99E2D0;
-   margin-right: 630px;
-   margin-left: 20px;
-   margin-bottom: 20px;
-}
-
-.bastille_trait1 {
    border: 1px solid #99E2D0;
    margin-right: 630px;
    margin-left: 20px;
@@ -2128,6 +2142,17 @@ font-size: 15px;
       background-color: #fff;
   }
 
+  .logo {
+   font-family: 'shrikhandregular';
+   font-size: 40px;
+}
+
+.logo_menu {
+      font-family: 'shrikhandregular';
+      font-size: 30px;
+      margin-left: 30px;
+}
+
   .howitwork {
    margin-bottom: 40px;
    padding-left: 202px;
@@ -2313,7 +2338,7 @@ font-size: 15px;
    padding-left: 420px;
 }
 
-.bastille_trait, .bastille_trait1 {
+.bastille_trait {
    margin-left: 340px;
 }
 

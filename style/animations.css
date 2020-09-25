@@ -208,7 +208,6 @@
 .prixx27 {
   font-weight: bolder;
   padding-top: 35px;
-  margin-left: 33px;
 }
 
 .prixx28 {
@@ -289,6 +288,8 @@
    padding-bottom: 5px;
    font-weight: bolder;
    font-size: 15px;
+   margin-block-end: 1em;
+   margin-block-start: 1em;
  }
  
 
