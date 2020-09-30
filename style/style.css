@@ -2358,6 +2358,11 @@ font-size: 15px;
       width: auto;
    }
 
+   .restaurants {
+      padding-right: 8px;
+      width: auto;
+   }
+
    .howitwork {
       padding-left: 0;
       padding-right: 0;
@@ -2401,6 +2406,10 @@ font-size: 15px;
 
 .bastille_trait {
    margin-right: 240px;
+}
+
+.footer_index {
+   margin-right: 0;
 }
 }
 
