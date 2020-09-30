@@ -484,22 +484,22 @@ font-size: 15px;
   color: #CB2757;
  }
 
- .animcoeur:active #restaurants_heartplein {
+ .animcoeur:hover #restaurants_heartplein {
    opacity: 1;
    display: inline;
  }
 
- .animcoeur:active #restaurants_heartplein2 {
+ .animcoeur:hover #restaurants_heartplein2 {
   opacity: 1;
   display: inline;
 }
 
-.animcoeur:active #restaurants_heartplein3 {
+.animcoeur:hover #restaurants_heartplein3 {
   opacity: 1;
   display: inline;
 }
 
-.animcoeur:active #restaurants_heartplein4 {
+.animcoeur:hover #restaurants_heartplein4 {
   opacity: 1;
   display: inline;
 }
@@ -550,7 +550,7 @@ font-size: 15px;
   animation: coeur 2s infinite;
 }
 
-.animcoeur:active #palette_heartplein {
+.animcoeur:hover #palette_heartplein {
   opacity: 1;
   display: inline;
 }
@@ -574,7 +574,7 @@ font-size: 15px;
   animation: coeur 2s infinite;
 }
 
-.animcoeur:active #enchanted_heartplein {
+.animcoeur:hover #enchanted_heartplein {
   opacity: 1;
   display: inline;
 }
@@ -598,7 +598,7 @@ font-size: 15px;
   color: #CB2757;
 }
 
-.animcoeur:active #bastille_heartplein {
+.animcoeur:hover #bastille_heartplein {
   opacity: 1;
   display: inline;
 }

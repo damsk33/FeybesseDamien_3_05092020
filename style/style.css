@@ -2351,6 +2351,58 @@ font-size: 15px;
 }
 
 }
+@media screen and (min-width: 300px) and (max-width: 370px) {
+
+   .ohmyfood {
+      padding: 0px;
+      width: auto;
+   }
+
+   .howitwork {
+      padding-left: 0;
+      padding-right: 0;
+   }
+
+   .restaurants_contenu {
+      margin-left: 0;
+   }
+
+   #bastille_heart {
+      margin-left: 140px;
+   }
+
+   #palette_heart {
+      margin-left: 55px;
+   }
+
+   #enchanted_heart {
+      margin-left: 5px;
+   }
+
+   #gourmand_heart {
+      margin-left: 70px;
+   }
+
+   .entreesx2 {
+      padding: 0px 150px 15px 10px;
+   }
+
+   .entreesx {
+      padding: 0px 50px 15px 10px;
+  }
+
+  .prix_palette1 {
+   padding-left: 0px;
+  }
+
+  .prixx2 {
+     margin-left: 0;
+}
+
+.bastille_trait {
+   margin-right: 240px;
+}
+}
 
  
 
