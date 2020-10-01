@@ -2391,6 +2391,14 @@ font-size: 15px;
       padding: 0px 150px 15px 10px;
    }
 
+   .entreesxbis {
+   overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0px 10px 15px 10px;
+    text-align: left;
+   }
+
    .entreesx {
       padding: 0px 50px 15px 10px;
   }
